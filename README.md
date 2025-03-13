@@ -13,7 +13,7 @@ This project implements a minimalistic memory allocator that provides manual mem
     - Allocates memory for an array of `nmemb` elements, each of size `size`, and initializes it to 0
     - Returns `NULL` if nmemb or size is 0, or if the allocation fails
 
-3. `void *os_realloc(void *ptr, size_t size)
+3. `void *os_realloc(void *ptr, size_t size)`
     - Resizes the memory block pointed to by `ptr` to `size` bytes
     - Attempts to expand the block in place, or moves the block if necessary
     - Returns `NULL` if `ptr` is invalid or if the new size is 0
